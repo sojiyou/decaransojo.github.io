@@ -1,7 +1,7 @@
 body{
     height: 110px;
-    color: rgb(255, 238, 206);
-    background-color: hsl(0, 0%, 11%);
+    color: rgb(250, 249, 246);
+    background-color: rgb(28, 28, 28);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
@@ -14,22 +14,15 @@ header{
         margin-left: 30px;
         width: 300px;
     }
-    a{
-        text-decoration: none;
-        justify-content: space-between;
-        font-weight: bold;
-        padding: 10px 15px;
-        color: rgb(255, 238, 206);
-    }
 }
-header a{
+header .headerLinks{
+    color: rgb(255, 238, 206);
     text-decoration: none;
     justify-content: space-between;
     font-weight: bold;
     padding: 10px 15px;
-    color: rgb(255, 238, 206);
 }
-header a:hover{
+header .headerLinks:hover{
     cursor: pointer;
     background-color: hsl(38, 29%, 67%);
     color: hsl(0, 0%, 50%);
@@ -49,9 +42,7 @@ footer{
     a{
         margin-right: 10px;
     }
-    #theme{
-        justify-content: end;
-    }
+
 }
 #container{ /*    The Gray container on the Home Page   */
     height: 470px;
@@ -85,4 +76,12 @@ footer{
 #container h1{
     text-align: center;
     margin-left: 16.5px;
+}
+#themeBtn {
+    font-size: 1em;
+    border-radius: 30px;
+    padding: 4px 6px;
+    margin-right: 1.2px;
+    border: none;
+    cursor: pointer;
 }
