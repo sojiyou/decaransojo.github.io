@@ -1,5 +1,5 @@
 body{
-    height: 100px;
+    height: 110px;
     color: rgb(255, 238, 206);
     background-color: hsl(0, 0%, 11%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,10 +29,13 @@ header{
         transition: background-color 0.3s ease, color 0.3s ease;
     }
 }
-footer .socials{
-    text-align: right;
-    margin-top: 20px;
-    font-size: 1.5em;
+footer{
+    .socials{
+        margin-top: 20px;
+        font-size: 1.5em;
+        display: inline-block;
+        text-align: left;
+    }
     a{
         margin-right: 10px;
     }

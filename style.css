@@ -1,5 +1,5 @@
 body{
-    height: 100px;
+    height: 110px;
     color: rgb(255, 238, 206);
     background-color: hsl(0, 0%, 11%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,12 +8,19 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-header h1{
-    margin-right: 700px;
-    font-size: 1.5em;
-    margin-left: 30px;
-    width: 300px;
+    h1{
+        margin-right: 700px;
+        font-size: 1.5em;
+        margin-left: 30px;
+        width: 300px;
+    }
+    a{
+        text-decoration: none;
+        justify-content: space-between;
+        font-weight: bold;
+        padding: 10px 15px;
+        color: rgb(255, 238, 206);
+    }
 }
 header a{
     text-decoration: none;
@@ -29,13 +36,22 @@ header a:hover{
     border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-footer .socials{
-    text-align: right;
-    margin-top: 20px;
-    font-size: 1.5em;
-}
-footer .socials a{
-    margin-right: 10px;
+footer{ 
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .socials{
+
+        font-size: 1.5em;
+        justify-content: start;
+    }
+    a{
+        margin-right: 10px;
+    }
+    #theme{
+        justify-content: end;
+    }
 }
 #container{ /*    The Gray container on the Home Page   */
     height: 470px;
